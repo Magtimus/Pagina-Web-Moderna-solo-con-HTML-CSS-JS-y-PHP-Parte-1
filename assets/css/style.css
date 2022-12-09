@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+}
+
+.container__header{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu nav{
+    margin: 0px 20px;
+}
+
+.menu nav ul{
+    display: flex;
+}
+
+.menu nav ul li{
+    list-style: none;
+    margin: 20px 16px;
+}
+
+.menu nav ul li a{
+    color: black; /*Variable*/
+    font-size: 16px; /*Variable*/
+    position: relative;
+}
+
+.menu nav ul li a:hover{
+    color: brown; /*Variable*/
+}
+
+.btn__quote{
+    display: block;
+    padding: 8px 40px;
+    border: 2px solid #9A00BF; /*Variable*/
+    border-radius: 8px;
+    font-weight: 500;
+    margin: 0px 20px;
+    transition: all 300ms;
+}
+
+.btn__quote:hover{
+    color: white;
+    background: #9A00BF; /*Variable*/
+}
+
+.menu .socialMedia{
+    margin: 0px 10px;
+}
+
+.menu .socialMedia a{
+    margin: 0px 4px;
+}
+
+.menu .socialMedia img{
+    width: 20px;
+}
